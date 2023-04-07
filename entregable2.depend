@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1680623447 source:c:\users\turina\documents\progs\entregable2\charset.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1680876201 source:c:\users\turina\documents\progs\entregable2\main.c
+	"tp2_13.h"
+	"charset.h"
+	"funciones.h"
+
+1680876114 c:\users\turina\documents\progs\entregable2\charset.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1680875960 c:\users\turina\documents\progs\entregable2\tp2_13.h
+
+1680879619 source:c:\users\turina\documents\progs\entregable2\funciones.c
+	"funciones.h"
+
+1680876297 c:\users\turina\documents\progs\entregable2\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	"charset.h"
+	"tp2_13.h"
+
+1680875974 source:c:\users\turina\documents\progs\entregable2\tp2_13.c
+	"tp2_13.h"
+	<stdlib.h>
+
+1680876047 source:c:\users\turina\documents\progs\entregable2\funciones_charset.c
+	"charset.h"
+
