@@ -3,7 +3,7 @@
  
 <img src=https://img.freepik.com/vector-premium/senal-atencion-advertencia-peligro-simbolo-exclamacion-blanco_231786-5218.jpg width="100" height="100" text-aling="center"> </p>
  
-## HAY COSAS QUE NO SE POR QUE NO ANDAN
+## CONSULTA
 Aparte de lo que revisen ¿Puedo pedir ayuda o revision particular en lo que sigue?
 
 ### Dudas de los .h
@@ -19,7 +19,7 @@ En las funciones:
 En las funciones:
 
 * conjunto_caracteres_deseados ¿Como podria incluir los acentos y evitar ese error?
-* cargar_palabras_texto , lineas 90-91 tengo que hacer eso y no entiendo por qué
+* cargar_palabras_texto , lineas 90-92 tengo que hacer eso y no entiendo por qué
   - Donde seria mejor poner el remove? fuera de esta funcion? que parte?
 * comparador , no entiendo por que no puedo acceder al supuesto puntero de comparacion para usarlo y armar algo para el qsort a nivel estructura
   - Asi ordeno estructuras pero la comparacion es por algo que esta dentro
