@@ -119,17 +119,16 @@ void imprimir_palabras(palabra** palabras, int cantidad_palabras){
 }
 
 
-///********************************************* ORDENAMIENTO NO SE COMO HACER
+/** COMPARO DOS PUNTEROS A PALABRA
+*   ya que qsort va ir variando las posiciones, me quedo a ver que hace en la palabra 0
+*/
 int comparador( const void *a, const void *b )
 {
 
-    struct palabra* palabra1 = (struct palabra*)a;
-    struct palabra* palabra2 = (struct palabra*)b;
+     palabra** palabra1 = (palabra**)a; //lo que llega a a y b son punteros doble a una palabra
+     palabra** palabra2 = (palabra**)b;
 
-    //(struct palabra*)palabra1->palabra;
-    ///quiero comparar los strings pero me tira un error al intentar obtener el puntero a la palabra y mandarlo a strcmp
-
-    return 0;
+    return strcmp(palabra1[0]->palabra, palabra2[0]->palabra);
 }
 
 

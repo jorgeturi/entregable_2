@@ -32,3 +32,31 @@
 1680876047 source:c:\users\turina\documents\progs\entregable2\funciones_charset.c
 	"charset.h"
 
+1680970932 source:c:\users\jorge\documents\github\entregable_2\funciones_charset.c
+	"charset.h"
+
+1680970299 c:\users\jorge\documents\github\entregable_2\charset.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1681674885 source:c:\users\jorge\documents\github\entregable_2\main.c
+	"tp2_13.h"
+	"charset.h"
+	"funciones.h"
+
+1680970617 c:\users\jorge\documents\github\entregable_2\tp2_13.h
+
+1681674929 c:\users\jorge\documents\github\entregable_2\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	"charset.h"
+	"tp2_13.h"
+
+1680970617 source:c:\users\jorge\documents\github\entregable_2\tp2_13.c
+	"tp2_13.h"
+	<stdlib.h>
+
+1681674972 source:c:\users\jorge\documents\github\entregable_2\funciones.c
+	"funciones.h"
+

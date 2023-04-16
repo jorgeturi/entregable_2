@@ -20,9 +20,9 @@ int main()
     caracteres = conjunto_caracteres_deseados(); ///genero un conjunto con caracteres que me interesan obtener
 
     palabras = cargar_palabras_texto(nombre_copia, caracteres, &cantidad_palabras); ///cargo palabras, segun el conjunto deseado
-
-    //qsort(palabras, cantidad_palabras, sizeof(palabras), comparador);
-    //palabras = _preordenar(palabras, cantidad_palabras);
+         //printf("en la dir %x, apunto a %x que es la primer palabra y tiene%s\n",palabras, palabras[0] ,palabras[0]->palabra);
+    qsort(palabras, cantidad_palabras, sizeof(palabras), comparador);
+         //palabras = _preordenar(palabras, cantidad_palabras);
 
     imprimir_palabras(palabras, cantidad_palabras);
 
